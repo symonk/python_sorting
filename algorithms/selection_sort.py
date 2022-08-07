@@ -1,7 +1,7 @@
 import typing
 
 
-def selection_sort(items: typing.MutableSequence[int]):
+def selection_sort(items: typing.MutableSequence[int]) -> None:
     """Implementation of selection sort.
 
     Selection sort is an `in-place` sorting algorithm, in that it does not
