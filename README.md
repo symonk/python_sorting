@@ -1,2 +1,2 @@
-# python_sorting
-:snake: Common sorting algorithms implemented in python
+# Sorting Algorithms In Python
+:snake: python implementations of common sorting algorithms
