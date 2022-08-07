@@ -27,7 +27,10 @@ def selection_sort(items: typing.MutableSequence[int]):
     Time complexity: O(n^2) due to iterating the unsorted selection fully each iteration.
     Space complexity: O(1) constant.
     """
-    for index in range(len(items)):  # ref: 1
-        min_idx = index
-        ...
+    for i in range(len(items)):
+        min_idx = i
+        for j in range(i+1, len(items)):
+            if items[min_idx] > items[j]:
+                min_idx = j
+        items[i], items[min_idx] = items[min_idx], items[i]
 

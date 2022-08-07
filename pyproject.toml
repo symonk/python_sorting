@@ -1,6 +1,6 @@
 
 [tool.poetry]
-name = "python_sorting"
+name = "algorithms"
 version = "0.1.0"
 description = "python implementations of common sorting algorithms"
 authors = ["symonk <jackofspaces@gmail.com>"]
