@@ -20,7 +20,7 @@ def selection_sort(items: typing.MutableSequence[int]) -> None:
         Swap the item at this index, with the minimum item of the unsorted part
 
 
-    Big-O Break down
+    Big O Summary
     =================
 
     Time complexity: O(n^2) due to iterating the unsorted selection fully each iteration.
