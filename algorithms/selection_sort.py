@@ -17,8 +17,7 @@ def selection_sort(items: typing.MutableSequence[int]):
 
     The algorithm initially begins by iterating the entire data set.
         For each iteration, find the minimum value left in the unsorted part.
-        It knows that anything prior to the min index is already sorted.
-
+        Swap the item at this index, with the minimum item of the unsorted part
 
 
     Big-O Break down
@@ -27,6 +26,7 @@ def selection_sort(items: typing.MutableSequence[int]):
     Time complexity: O(n^2) due to iterating the unsorted selection fully each iteration.
     Space complexity: O(1) constant.
     """
+
     for i in range(len(items)):
         min_idx = i
         for j in range(i+1, len(items)):

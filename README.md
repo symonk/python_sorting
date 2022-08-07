@@ -10,4 +10,9 @@
 
 -----
 
+### Quick Sort
+
+ * [Quick Sort Implementation](/algorithms/quick_sort.py).
+ * [Quick Sort Unit Tests](/tests/test_quick_sort.py).
+
 
