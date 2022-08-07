@@ -5,8 +5,8 @@
 
 `Selection Sort`:
 
-    Implementation: [Selection Sort](algorithms/selection_sort.py).
-    Tests: [Selection Sort](tests/test_selection_sort.py).
+    [Implementation](algorithms/selection_sort.py).
+    [Tests](tests/test_selection_sort.py).
 
 -----
 
